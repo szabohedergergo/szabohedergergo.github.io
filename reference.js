@@ -31,7 +31,7 @@ const langData = {
     HU:{
         mlHome: "Kezdőlap",
         mlAbout: "Rólam",
-        mlAboutDesc: "19 éves vagyok, több évnyi tapasztalattal.",
+        mlAboutDesc: "19 éves vagyok, lassan egy éves tapasztalattal. Különböző áttanult, statisztikailag precíz szakmai megoldásokat alkalmazva kitudlak segíteni bármilyen általam felsorolt szolgáltatásban.",
         mlServices: "Szolgáltatások",
         mlPortfolio: "Referencia",
         mlContact: "Kapcsolat",
@@ -61,7 +61,7 @@ const langData = {
     EN:{
         mlHome: "Home",
         mlAbout: "About",
-        mlAboutDesc: "19 years old, serveral years experience.",
+        mlAboutDesc: "I am 19 years old with almost one year experience. With the statistics that I am following, I have succesfully developed an effective system to solve your problems in regard with any of my services.",
         mlServices: "Services",
         mlPortfolio: "Reference",
         mlContact: "Contact",
