@@ -31,7 +31,7 @@ const langData = {
     HU:{
         mlHome: "Kezdőlap",
         mlAbout: "Csapatunkról",
-        mlAboutDesc: "Hosszú ideje rövid formátumú videók szerkesztésével foglalkozunk. Ez idő alatt számos technikát elsajátítottunk melynek segítségével garantáljuk a szocális médián való terjeszkedést. Több klienssel is dolgoztunk illetve dolgozunk pályafutásunk alatt, melyek referenciája megtekinthető a Referencia szekcióban.",
+        mlAboutDesc: "Hosszú ideje rövid formátumú videók szerkesztésével foglalkozunk. Ez idő alatt számos technikát elsajátítottunk melyek segítségével garantáljuk a szocális médián való terjeszkedést. Több klienssel is dolgoztunk illetve dolgozunk pályafutásunk alatt, melyek referenciája megtekinthető a Referencia szekcióban.",
         mlServices: "Szolgáltatások",
         mlPortfolio: "Referencia",
         mlContact: "Kapcsolat",
