@@ -95,7 +95,7 @@ function setLanguage(language){
     console.log(language);
     const languageData = langData[language];
 
-    typed.strings =[languageData["mlProf2"], languageData["mlProf3"], languageData["mlProf1"], languageData["mlProf3"]];
+    typed.strings =[languageData["mlProf3"], languageData["mlProf3"], languageData["mlProf3"]];
 
     for (const key in languageData) {
         if (languageData.hasOwnProperty(key)) {
