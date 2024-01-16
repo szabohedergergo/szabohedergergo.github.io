@@ -8,7 +8,7 @@ if(defaultLanguage != "HU" && defaultLanguage != "EN")
     defaultLanguage = "EN";
 
 let typed = new Typed(".multiple-text", {
-    strings: ["", "", "", ""],
+    strings: ["", "", ""],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -35,7 +35,7 @@ const langData = {
         mlServices: "Szolgáltatások",
         mlPortfolio: "Referencia",
         mlContact: "Kapcsolat",
-        mlWelcome: "Üdvözöllek, mi vagyunk a",
+        mlWelcome: "Üdvözlünk, mi vagyunk a",
         mlName: "Mergo Solutions",
         mlShortIntro: "A programozáshoz való szenvedélyem miatt sok programnyelvet ismertem meg és sajátítottam el, valamint fogok is. Többek között a HTML, CSS, SQL és Javascript nyelvek, valamint az AMXX Pawn scriptnyelv áll hozzám a legközelebb.",
         mlDesc1: "És Én Egy",
