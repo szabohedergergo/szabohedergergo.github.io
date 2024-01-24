@@ -71,7 +71,7 @@ const langData = {
         mlDesc1: "And I'm a",
         mlProf1: "Web Developer",
         mlProf2: "AMXX Pawn Developer",
-        mlProf3: "Video Editor",
+        mlProf3: "Video Editors",
         mlTitleProf1: "Web Development",
         mlTitleProf2: "CS 1.6 Development",
         mlTitleProf3: "Video Editing",
