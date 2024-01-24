@@ -8,7 +8,7 @@ if(defaultLanguage != "HU" && defaultLanguage != "EN")
     defaultLanguage = "EN";
 
 let typed = new Typed(".multiple-text", {
-    strings: ["", "", ""],
+    strings: [languageData["mlProf3"], languageData["mlProf3"], languageData["mlProf3"]],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -95,7 +95,7 @@ function setLanguage(language){
     console.log(language);
     const languageData = langData[language];
 
-    typed.strings =[languageData["mlProf3"], languageData["mlProf3"], languageData["mlProf3"]];
+    //typed.strings =[languageData["mlProf3"], languageData["mlProf3"], languageData["mlProf3"]];
 
     for (const key in languageData) {
         if (languageData.hasOwnProperty(key)) {
