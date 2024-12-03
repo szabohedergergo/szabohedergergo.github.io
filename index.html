@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2025</title>
+    <link rel="stylesheet" href="reference.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active" id="mlHome">Home</a>
+            <a href="#portfolio" id="mlPortfolio">Portfolio</a>
+            <a href="#about" id="mlAbout">About</a>
+            <a href="#Rating" id="mlRating">Rating</a>
+            <a href="#contact" id="mlContact">Contact</a>
+            <a href="#lang" class="language">HU</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 id="mlWelcome">Hello, It's Me</h3>
+            <h1 id="mlName">Gergő Szabó</h1>
+            <h3><span class="multiple-text">Frontend Developer!</span></h3>
+            <div class="social-media">
+                <!--<a href="#facebook"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#twitter"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.tiktok.com/@mergosolutions" target="_blank"><i class='bx bxl-tiktok'></i>-->
+                <a href="https://discordapp.com/users/1202298816922136657" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+                <a href="https://www.instagram.com/mergosolutions/" target="_blank"><i class='bx bxl-instagram-alt'></i>
+                <a href="https://www.youtube.com/@MergoSolutions" target="_blank"><i class='bx bxl-youtube'></i>
+            </div>
+            <div><a href="#portfolio" class="btn">Reference</a></div>
+        </div>
+
+        <div class="home-img" style="padding-left: 60px;">
+            <img src="new_logo_no_bg.png" alt="" style="width: 600px; height: auto;">
+        </div>
+    </section>
+    <hr class="separator-gradient"/>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span id="mlReference">References</span></h2>
+    
+        <div class="portfolio-filters">
+            <button class="filter-btn" data-category="devinjatho" id="mlDevinJatho">Devin Jatho</button>
+            <button class="filter-btn" data-category="motivational" id="mlMotivational">Motivational</button>
+            <button class="filter-btn" data-category="podcast" id="mlPodcast">Podcast</button>
+            <button class="filter-btn" data-category="voiceover" id="mlVoiceover">Voiceover</button>
+            <button class="filter-btn" data-category="colorgrading" id="mlColorGrading">Color Grading</button>
+            <button class="filter-btn" data-category="gameplay" id="mlGameplay">Gameplay</button>
+            <button class="filter-btn" data-category="funny" id="mlFunny">Funny</button>
+            <button class="filter-btn" data-category="storytelling" id="mlStoryTelling">Story Telling</button>
+            <button class="filter-btn" data-category="carramp" id="mlCarRamp">Car ramp</button>
+            <button class="filter-btn" data-category="ai" id="mlAI">AI</button>
+            <button class="filter-btn" data-category="sport" id="mlSport">Sport</button>
+        </div>
+    
+        <div class="video-container">
+            <!-- Bal oldali, homályosított videó -->
+            <div class="video-wrapper prev-video">
+                <video muted loop></video>
+            </div>
+
+            <button id="prevBtn" class="nav-btn">&#9664;</button>
+    
+            <!-- Fő videó -->
+            <div class="video-wrapper main-video">
+                <video id="portfolioVideo" controls autoplay muted loop width="250">
+                    <source src="djatho.mp4" type="video/mp4" class="video-settings">
+                </video>
+                <div class="portfolio-description" id="videoDescription">After Effects</div>
+            </div>
+
+            <button id="nextBtn" class="nav-btn">&#9654;</button>
+    
+            <!-- Jobb oldali, homályosított videó -->
+            <div class="video-wrapper next-video">
+                <video muted loop></video>
+            </div>
+        </div>
+    </section>
+    <hr class="separator-gradient"/>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="lion1.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading" id="mlAbout2"></h2>
+            <h3><span id="mlProf3"></span></h3>
+            <p id="mlAboutDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima facilis qui iure, non perferendis laudantium, consequuntur quam fugiat, deleniti assumenda officia saepe eum? Molestiae minima nam dolor! Incidunt, explicabo pariatur.</p>
+            <a href="#portfolio" class="btn">Reference</a>
+        </div>
+    </section>
+    <hr class="separator-gradient"/>
+
+    <section class="Rating" id="Rating">
+        <h2 class="heading"><span id="mlRating2"></span></h2>
+    
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-content">
+                    <img src="pp.png" id="card-image1" alt="Service 1" class="card-image">
+                    <h2 class="card-title" id="mlCardservice1">Alap csomag</h2>
+                    <ul class="card-description" id="mlCarddesc1">
+                        <!-- A JavaScript tölti be ide a listaelemeket -->
+                    </ul>
+                    <p class="card-price" id="mlCardprice1">Ár: 10 000 Ft</p>
+                    <p class="card-price-caution" id="mlPricecaution1">The price can vary depending on the quality you require.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <img src="pp.png" id="card-image2" alt="Service 2" class="card-image">
+                    <h2 class="card-title" id="mlCardservice2">Haladó csomag</h2>
+                    <ul class="card-description" id="mlCarddesc2">
+                        <!-- A JavaScript tölti be ide a listaelemeket -->
+                    </ul>
+                    <p class="card-price" id="mlCardprice2">Ár: 20 000 Ft</p>
+                    <p class="card-price-caution" id="mlPricecaution2">The price can vary depending on the quality you require.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-content">
+                    <img src="ae + pp.png" id="card-image3" alt="Service 3" class="card-image">
+                    <h2 class="card-title" id="mlCardservice3">Profi csomag</h2>
+                    <ul class="card-description" id="mlCarddesc3">
+                        <!-- A JavaScript tölti be ide a listaelemeket -->
+                    </ul>
+                    <p class="card-price" id="mlCardprice3">Ár: 30 000 Ft</p>
+                    <p class="card-price-caution" id="mlPricecaution3">The price can vary depending on the quality you require.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <hr class="separator-gradient"/>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading"><span id="mlContact2">Contact</span></h2>
+
+        <div class="contact-content">
+            <div class="social-media">
+                <!--<a href="#facebook"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#twitter"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.tiktok.com/@mergosolutions" target="_blank"><i class='bx bxl-tiktok'></i>-->
+                <a href="https://www.instagram.com/mergosolutions/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.facebook.com/mergosolutions" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://discordapp.com/users/1202298816922136657" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+                <a href="https://twitter.com/MergoSolutions" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a target="_blank" class="btn"  onclick="copyEmail()"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <!-- <a href="https://discordapp.com/users/1202298816922136657" target="_blank" class="btn">Discord</a>
+            <a href="https://www.instagram.com/mergosolutions/" target="_blank" class="btn">Instagram</a>
+            <a href="https://www.facebook.com/mergosolutions" target="_blank" class="btn">Facebook</a>
+            <a target="_blank" class="btn"  onclick="copyEmail()">Email</a>
+            <a href="https://twitter.com/MergoSolutions" target="_blank" class="btn">X</a>-->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Heder | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="video-selector.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="typed.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+    <script src="particles.js"></script>
+
+    <script src="3d.js"></script>
+
+    <script src="scrollreveal.js"></script>
+
+    <script>
+        function copyEmail() {
+            const email = "solutionsmergo@gmail.com";
+            navigator.clipboard.writeText(email).then(() => {
+                alert("Email address on Ctrl + V!");
+            }).catch(err => {
+                console.error("Error: ", err);
+            });
+        }
+    </script>
+
+</body>
+</html>
